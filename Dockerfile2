@@ -1,0 +1,6 @@
+﻿FROM ghcr.io/rpry/otus_webapp_dockerfile/webapp:1.5
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+ENTRYPOINT ["dotnet", "WebApp.dll"]

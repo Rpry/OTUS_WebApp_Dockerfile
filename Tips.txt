@@ -1,0 +1,8 @@
+#build docker build -f Dockerfile  -t webapp:1.4 .
+#run docker run -it -p 5080:8080 webapp:1.4
+
+#tag docker tag webapp:1.4 ghcr.io/rpry/otus_webapp_dockerfile/webapp:1.4
+#push docker push ghcr.io/rpry/otus_webapp_dockerfile/webapp:1.4
+
+#build docker build -f Dockerfile2  -t webapp:1.4 .
+#run docker run -it -p 5080:8080 webapp:1.4
